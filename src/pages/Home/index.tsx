@@ -1,5 +1,9 @@
-import { HandPalm, Play } from "phosphor-react";
+import { useContext } from "react";
 import { FormProvider, useForm } from "react-hook-form";
+import { HandPalm, Play } from "phosphor-react";
+import * as z from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
+
 import { NewCycleForm } from "./components/NewCycleForm";
 import { Countdown } from "./components/Countdown";
 import {
@@ -7,9 +11,7 @@ import {
     StartCountdownButton,
     StopCountdownButton,
 } from "./styles";
-import { zodResolver } from "@hookform/resolvers/zod";
-import * as z from "zod";
-import { useContext } from "react";
+
 import { CyclesContext } from "../../contexts/CyclesContext";
 
 const newCycleFormValidationSchema = z.object({
@@ -19,6 +21,7 @@ const newCycleFormValidationSchema = z.object({
         .min(5, "O ciclo precisa ser de no mínimo 5 minutos")
         .max(60, "O ciclo precisa ser de no máximo 60 minutos"),
 });
+// zod can create types from zod schema
 type NewCycleFormData = z.infer<typeof newCycleFormValidationSchema>;
 
 export function Home() {
