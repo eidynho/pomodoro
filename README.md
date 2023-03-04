@@ -7,8 +7,6 @@
 </div>
 
 <br />
-<hr />
-<br />
 
 <!-- TABLE OF CONTENTS -->
 ## Table of contents
@@ -21,9 +19,6 @@
     </li>
     <li>
         <a href="#getting-started">Getting Started</a>
-        <ul>
-            <li><a href="#installation">Installation</a></li>
-        </ul>
     </li>
     <li>
         <a href="#usage">Usage</a>
@@ -36,8 +31,6 @@
     </li>
 </ol>
 
-<br />
-<hr />
 <br />
 
 <!-- ABOUT THE PROJECT -->
@@ -56,8 +49,6 @@ There is a second screen, where the history of the last timers is located, showi
 ![History screenshot][history-screenshot]
 
 <br />
-<hr />
-<br />
 
 ## Built with
 
@@ -67,8 +58,6 @@ There is a second screen, where the history of the last timers is located, showi
 [![Typescript][Typescript]][Typescript]
 [![Vite][Vite]][Vite]
 
-<br />
-<hr />
 <br />
 
 <!-- GETTING STARTED -->
@@ -92,8 +81,6 @@ To install the Pomodoro Timer, follow these steps:
 4. Open http://localhost:3001 to view it in the browser.
 
 <br />
-<hr />
-<br />
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -106,8 +93,6 @@ To use the Pomodoro Timer App, follow these steps:
 4. When the timer completes a pomodoro or break, timer will interrupt automatically.
 5. If you want to stop, click on "Interrupt" button to break.
 
-<br />
-<hr />
 <br />
 
 <!-- CONTRIBUTING -->
@@ -122,16 +107,12 @@ If you would like to contribute to the development of the Pomodoro Timer App, pl
 5. Create a pull request from your branch to the original repository.
 
 <br />
-<hr />
-<br />
 
 <!-- LICENSE -->
 ## License
 
 This project is licensed under the MIT License. See `LICENSE.txt` for more information.
 
-<br />
-<hr />
 <br />
 
 <!-- MARKDOWN LINKS & IMAGES -->
